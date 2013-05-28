@@ -1,0 +1,29 @@
+[
+  {
+    "model": "security.system",
+    "pk": 1,
+    "fields": {
+      "passcode": 1234,
+      "status": 0,
+      "alarm_status": 0
+    }
+  },
+  {
+    "model": "security.sensor",
+    "pk": 1,
+    "fields": {
+      "name": "d1",
+      "location": "door",
+      "system": 1
+    }
+  },
+  {
+    "model": "security.sensor",
+    "pk": 2,
+    "fields": {
+      "name": "w1",
+      "location": "window",
+      "system": 1
+    }
+  }
+]
